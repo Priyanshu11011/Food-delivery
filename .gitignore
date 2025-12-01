@@ -1,0 +1,31 @@
+ # Node (frontend/backend)
+node_modules/
+dist/
+build/
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Logs, OS
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# Python (if any)
+venv/
+__pycache__/
+*.pyc
+
+# Uploads / large files
+uploads/
+*.sqlite3
+
+# Misc
+admin/.env
+frontend/.env
+backend/.env

@@ -1,0 +1,77 @@
+.header{
+    height: 40vw;
+    margin: 30px auto;
+    background: url('../../../public/header_img.webp') no-repeat;
+    background-size:cover;
+    position: relative;
+    border-radius: 32px;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.6vw;
+    max-width: 50%;
+    bottom: 24%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.8vw, 22px);
+}
+
+.header-contents p{
+    color: rgba(255, 255, 255, 0.668);
+    font-size: 1vw;
+}
+
+.header-contents button {
+    border: none;
+    color:#053cf2;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 12px);
+    border-radius: 50px;
+}
+
+@media (max-width:1050px){
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px){
+
+    .header{
+       height: 44vw;
+    }
+
+    .header-contents{
+        max-width: 65%;
+        bottom: 30%;
+        gap: 2vw;
+    }
+
+    .header-contents p{
+        display: none;
+    }
+
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
+@media (max-width:550px){
+
+    .header-contents button{
+        font-size: 8px;
+    }
+}
+
+
