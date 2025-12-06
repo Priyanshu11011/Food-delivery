@@ -2,7 +2,7 @@
 
 ```text
 Food-Delivery/
-├── admin/
+├── admin
 ├── frontend
 ├── backend
 ```
