@@ -1,3 +1,12 @@
+## 📁 Project Structure
+
+/food-delivery/
+├── admin
+├── frontend
+└── backend
+
+
+
 ## 🍽️ User Features
 
 - 🔐 **User Registration & Login**
