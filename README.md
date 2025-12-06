@@ -1,10 +1,11 @@
-## 📁 Project Structure
+## 📂 Project Structure
 
-/food-delivery/
-├── admin
+```text
+Food-Delivery/
+├── admin/
 ├── frontend
-└── backend
-
+├── backend
+```
 
 
 ## 🍽️ User Features
